@@ -9,7 +9,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/COSE474_Mario-AI" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1RuPAxthdA6e7GnmrxjD37KQj3b" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -41,7 +41,11 @@
       <updated>1570513868310</updated>
       <workItem from="1570513872470" duration="48000" />
       <workItem from="1570617892374" duration="188000" />
-      <workItem from="1572314150951" duration="499000" />
+      <workItem from="1572314150951" duration="1892000" />
+      <workItem from="1572844221431" duration="30000" />
+      <workItem from="1573014946892" duration="5335000" />
+      <workItem from="1573046117904" duration="35000" />
+      <workItem from="1573107603549" duration="371000" />
     </task>
     <servers />
   </component>
@@ -53,7 +57,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
