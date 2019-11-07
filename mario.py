@@ -76,7 +76,7 @@ class WarpFrame(gym.ObservationWrapper):
         gym.ObservationWrapper.__init__(self, env)
         self.width = 84
         self.height = 84
-        self.observation_space = gym.spaces.Box(low=0, high=255, shape=(self.height, self.width, 1), dtype=np.uint8)
+        self.observation_space = gym.spaces.Box(low=0, high=255, shape=(1, self.height, self.width), dtype=np.uint8)
 
     def observation(self, frame):
         frame = cv2.cvtColor(frame, cv2.COLOR_RGB2GRAY)
@@ -170,7 +170,7 @@ class DQN(nn.Module):
 
 _env = gym_super_mario_bros.make('SuperMarioBros-v0')
 env = JoypadSpace(_env, movements)
-env = warpframe(env)
+env = WarpFrame(env)
 
 model = DQN(env.observation_space.shape, env.action_space.n)
 
